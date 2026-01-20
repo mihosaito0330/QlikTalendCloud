@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_HAwjoPXHEfC_3KZGfyX8_Q" name="Otacle_Japan" id="_-Rg7kPXGEfC_3KZGfyX8_Q" label="Otacle_Japan" dataPackage="_HDXywPXHEfC_3KZGfyX8_Q" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@dev-eai-poc-oracle.czos3ne5atxm.ap-northeast-1.rds.amazonaws.com:1521:ORCL" dbVersionString="ORACLE_18" Port="1521" Username="admin" Password="enc:system.encryption.key.v1:HGwNPyEyReLS+kLt1bedvRnPaDivEv85wcAH4Ny9y7uNUIL/M0CIOg==" ServerName="dev-eai-poc-oracle.czos3ne5atxm.ap-northeast-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="ORCL" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="ADMIN" supportNLS="false">
+    <taggedValue xmi:id="_HAxKsPXHEfC_3KZGfyX8_Q" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_HBmRIPXHEfC_3KZGfyX8_Q" tag="package filter" value=""/>
+    <taggedValue xmi:id="_HBm4MPXHEfC_3KZGfyX8_Q" tag="Status" value=""/>
+    <taggedValue xmi:id="_HBm4MfXHEfC_3KZGfyX8_Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_HBm4MvXHEfC_3KZGfyX8_Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_HBm4M_XHEfC_3KZGfyX8_Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_HBm4NPXHEfC_3KZGfyX8_Q" tag="Author" value=""/>
+    <taggedValue xmi:id="_HBm4NfXHEfC_3KZGfyX8_Q" tag="otherParameter"/>
+    <taggedValue xmi:id="_HCYUQPXHEfC_3KZGfyX8_Q" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_HCYUQfXHEfC_3KZGfyX8_Q" tag="DB ProductVersion" value="Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production&#xA;Version 19.16.0.0.0"/>
+    <taggedValue xmi:id="_HCYUQvXHEfC_3KZGfyX8_Q" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_HAxKsfXHEfC_3KZGfyX8_Q" key="CONN_PARA_KEY_USERNAME" value="admin"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_HDXywPXHEfC_3KZGfyX8_Q" name="ADMIN" dataManager="_HAwjoPXHEfC_3KZGfyX8_Q"/>
+</xmi:XMI>
