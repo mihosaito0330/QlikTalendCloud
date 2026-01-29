@@ -101,18 +101,9 @@
   </parameters>
   <node componentName="S3List" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="240" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3List_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="List" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="YXdzLXMzI1MzI0xpc3Q" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="YXdzLXMzI1MzI2RhdGFzdG9yZSNTM0RhdGFzdG9yZQ" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="S3" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_OC--UPXJEfC_3KZGfyX8_Q"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
@@ -148,8 +139,6 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="-1" show="false"/>
-    <elementParameter field="TEXT" name="DATASTORE_PATH" value="configuration.dataset.datastore" show="false"/>
-    <elementParameter field="CHECK" name="OPTIONAL_ROW" value="true" show="false"/>
     <metadata connector="FLOW" name="tS3List_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
@@ -177,17 +166,8 @@
   </node>
   <node componentName="S3Put" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="280" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Put_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Put" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="YXdzLXMzI1MzI1B1dA" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="YXdzLXMzI1MzI2RhdGFzdG9yZSNTM0RhdGFzdG9yZQ" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="S3" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_OC--UPXJEfC_3KZGfyX8_Q"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
@@ -203,7 +183,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.keyType" value="KMS_CMK" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.encoding" value="BASE64" show="false"/>
     <elementParameter field="TEXT" name="configuration.bucket" value="dev-eai-poc"/>
-    <elementParameter field="TEXT" name="configuration.key" value="saito/test.txt"/>
+    <elementParameter field="TEXT" name="configuration.key" value="saito/test2.txt"/>
     <elementParameter field="FILE" name="configuration.file" value="&quot;C:/Users/miho.saito/Desktop/test.txt&quot;"/>
     <elementParameter field="CHECK" name="configuration.enableServerSideEncryption" value="false"/>
     <elementParameter field="CHECK" name="configuration.enableKms" value="false" show="false"/>
@@ -234,8 +214,6 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="-1" show="false"/>
-    <elementParameter field="TEXT" name="DATASTORE_PATH" value="configuration.dataset.datastore" show="false"/>
-    <metadata connector="FLOW" name="tS3Put_1"/>
     <metadata connector="FLOW" name="tS3Put_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
